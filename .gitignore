@@ -1,0 +1,6 @@
+# VSC Cockpit Firewall
+.vscode/
+# OS Crap Firewall
+Thumbs.db
+desktop.ini
+.DS_Store
