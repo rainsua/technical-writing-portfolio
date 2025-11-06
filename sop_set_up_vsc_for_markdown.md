@@ -6,7 +6,7 @@ version: 1.0
 ---
 ## Setting Up VSC for Markdown
 
-![Visual Studio Code](images/vmarkdown.png)
+![Visual Studio Code](images/vscmarkdown.png)
 
 Follow the steps below to set up VSC for Markdown production.
 
