@@ -54,14 +54,13 @@ The author of **Code Spell Checker** is **Street Side Software**. The extension 
 
 ## 3. Disable GitHub Copilot and Telemetry(optional)
 
-
 Privacy-oriented users might prefer to write documentation with GitHub's Copilot and Microsoft telemetry disabled. Since Copilot is now baked-in VSC, it's necessary to disable it in the profile to prevent it from reading your work. To disable Copilot, follow the steps below:
 
 ![GitHub Copilot Extension.](images/githubcopilotchat.png)
 
-Disable the **GitHub Copilot Extension** on the profile as shown above and modify the settings JSON opening the *command palette* using ``Ctrl`` + ``Shif`` + ``P`` , typing ``Settings JSON`` and copy/pasting the code below:
-```
+Disable the **GitHub Copilot Extension** on the profile as shown above and modify the settings JSON opening the *command palette* using ``Ctrl`` + ``Shift`` + ``P`` , typing ``Settings JSON`` and copy/pasting the code below:
 
+```
 
 {
     "chat.disableAIFeatures": true,
