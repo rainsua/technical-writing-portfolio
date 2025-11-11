@@ -24,11 +24,11 @@ The risk when traveling to the US for private individuals and business travelers
 
 ### 2. EEAA/Schengen
 
-Though digital searches entering the EU are rarer, border officials have the power to search the devices upon suspicion of illegal IP items. They also have the power to seize devices. In the EU, crypto assets fall under funds that need to be declared theoretically upon arrival. However, at the moment, officials aren't equipped to value crypto, so this would only be enforced, theoretically, upon suspicion of a crime or terrorism. 
+Though digital searches entering the EU are rarer, border officials have the power to search the devices upon suspicion of illegal IP items. They also have the power to seize devices. In the EU, crypto assets fall under funds that need to be declared theoretically upon arrival. However, at the moment, officials aren't equipped to value crypto, so this would only be enforced, theoretically, upon suspicion of a crime or terrorism.
 
 ### 3. Gulf States (Dubai, UAE, Saudi Arabia etc...)
 
-
+Illegal items to bring to Gulf States (Dubai, UAE, Saudi Arabia etc...) include but are not limited to anything illegal. This includes pornography, gay paraphernalia, rainbows and many other "unacceptable" items. It's also illegal to bring over 10K in crypto currencies without declaring, IP infringement items and basically, everything risky in EU plus anything gay or porn.
 
 ## Password Managers for Travel
 
