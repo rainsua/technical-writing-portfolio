@@ -14,9 +14,21 @@ The following SOP is dedicated to any individual crossing borders where digital 
 
 ## Burner devices
 
-The easiest approach to protecting digital assets is not to expose them in the first place. That would imply taking a "burner" device (phone or/and laptop) with only mission-critical data. However, burner devices need to follow the same security guidelines as regular devices and for reasons of cost-effectiveness, are not suitable for all people and organizations. In the absence of a burner,  <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, adn as such have a the big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. talk more about burner devices>
+The easiest approach to protecting digital assets is not to expose them in the first place. That would imply taking a "burner" device (phone or/and laptop) with only mission-critical data. However, burner devices need to follow the same security guidelines as regular devices and for reasons of cost-effectiveness, are not suitable for all people and organizations. In the absence of a burner,  <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
 
-## Sanitizing Business-Grade Hardware
+## Minimizing Risk according to destination
+
+Here's are the risks associated with travel to certain areas:
+### 1. USA
+The risk when traveling to the US for private individuals and business travelers is political material. It can be as little as a whatsapp message criticizing the current administration. Border officials can ask for passwords and conduct manual searches. Failure to comply can lead to seizure of the device(s) and/or denial of entry into the country for non-US citizens/residents.
+
+### 2. EEAA/Schengen
+
+Though digital searches entering the EU are rarer, border officials have the power to search the devices upon suspicion of illegal IP items. They also have the power to seize devices. In the EU, crypto assets fall under funds that need to be declared theoretically upon arrival. However, at the moment, officials aren't equipped to value crypto, so this would only be enforced, theoretically, upon suspicion of a crime or terrorism. 
+
+### 3. Gulf States (Dubai, UAE, Saudi Arabia etc...)
+
+
 
 ## Password Managers for Travel
 
