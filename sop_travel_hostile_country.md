@@ -32,4 +32,13 @@ Illegal items to bring to Gulf States (Dubai, UAE, Saudi Arabia etc...) include 
 
 ## Password Managers for Travel
 
-<!-- >
+Theoretically speaking, any password manager can be used successfully if it's sanitized for travel. This means, only mission-critical passwords in the vault.
+
+Create a new vault for travel only, and log out from the regular vault before departure. - Memorize your master password and don't write it anywhere. 
+- A good master passoword (for your vault) should have six, truly random words. Do not capitalize. Do not use weird symbols. Use a passoword generator or EFF diceware.<!-- >
+- The regular passwords in your vault should aim for 30 random characters. You do not need to memorize these, only the master password for the vault.
+- Song lyrics, fragments from published books, composite words seemingly unreal or unheard off, or anything that can be predicted won't do. Good password cracking has lists of words, lists of words together with other words, lyrics, fragments of literature and anything you can think off. Humans are not very good at creating randomness. Use a password generator!
+
+## Biometrics
+
+Biometrics are invaluable for authentication. They're incredibly convenient and secure. However, when traveling to a high risk zone, biometrics should be disabled/deleted. Rely on alphanumerical passwords, passphrases and PINs. Remember, the most effective length for a passphrase or a PIN, is the one you can remember without fault, in your worst day under pressure, without hesitation. It's better to have 3three truly random words in a passphrase than 6 if you need to write them down somewhere just in case. 
