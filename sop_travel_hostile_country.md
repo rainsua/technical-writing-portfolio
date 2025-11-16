@@ -10,7 +10,11 @@ Any valuable data, included but not limited to account credentials, files and cr
 
 ## Purpose and Scope
 
-The following SOP is dedicated to any individual crossing borders where digital assets can be seized. At the moment, any foreign national passing through a border can be subjected to data searches. <!--Review this, not entirely happy about it>
+The following SOP is dedicated to any individual crossing borders where digital assets can be seized. In particular, journalists, NGO operators and business travelers carrying valuable digital assets.
+
+## Raison d'tre 
+
+At present, we can divide destinations on a per-risk basis, as medium-risk and high risk. Data searches remain -fortunately- low, mostly for technical reasons. However, it will soon be possible to streamline these processes to the point where they can be made en-masse. Nevertheless, one most weight the low probability against the massive damage even a routine inspection can make. For reference, non-resident travelers to the US can be asked to unlock their phone/laptop, to allow border officials to search manually for messages against the current government. A single message can mean denial of entry. Refusal to comply can lead to the confiscation of the devices and denial of entry. In the EU, data searches can occur when suspicion of IP infringement is present. At the moment they're rare, but legislation currently in place calls for digital assets over a certain threshold to be declared. There's just no way to enforce it for now. Soon though, an official at any EU border would be in his right to check hot and cold wallets for undeclared crypto funds. In the highest risk countries, data searches can be more arbitrary, and 
 
 ## Burner devices
 
