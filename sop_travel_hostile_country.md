@@ -14,11 +14,48 @@ The following SOP is dedicated to any individual crossing borders where digital 
 
 ## Raison d'tre 
 
-At present, we can divide destinations on a per-risk basis, as medium-risk and high risk. Data searches remain -fortunately- low, mostly for technical reasons. However, it will soon be possible to streamline these processes to the point where they can be made en-masse. Nevertheless, one most weight the low probability against the massive damage even a routine inspection can make. For reference, non-resident travelers to the US can be asked to unlock their phone/laptop, to allow border officials to search manually for messages against the current government. A single message can mean denial of entry. Refusal to comply can lead to the confiscation of the devices and denial of entry. In the EU, data searches can occur when suspicion of IP infringement is present. At the moment they're rare, but legislation currently in place calls for digital assets over a certain threshold to be declared. There's just no way to enforce it for now. Soon though, an official at any EU border would be in his right to check hot and cold wallets for undeclared crypto funds. In the highest risk countries, data searches can be more arbitrary, and 
+At present, we can divide destinations on a per-risk basis, as medium-risk and high risk. Data searches remain -fortunately- low, mostly for technical reasons. However, it will soon be possible to streamline these processes to the point where they can be made en-masse. Nevertheless, one most weight the low probability against the massive damage even a routine inspection can make.
 
-## Burner devices
+## Modus Operandi
 
-The easiest approach to protecting digital assets is not to expose them in the first place. That would imply taking a "burner" device (phone or/and laptop) with only mission-critical data. However, burner devices need to follow the same security guidelines as regular devices and for reasons of cost-effectiveness, are not suitable for all people and organizations. In the absence of a burner,  <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
+To minimize risk, travelers must not travel with data that is not mission-critical. The ideal solution is to travel with travel-specific devices (AKA burners) without any personal credentials other than the ones needed for the mission.
+
+However, due to practical reasons, it may not be possible to obtain travel-specific devices. Therefore, personal/work devices would need to be sanitized to *burner* level, by removing personal credentials and accounts.
+
+Always prepare for the worst and hope for the best.
+
+### Suitable Hardware
+
+To travel to medium/high risk places with digital assets,  enterprise/business grade hardware is highly recommended. Consumer-grade computers and phones simply don't offer the same level of security, regardless of features.
+
+**Ideal Phones:** All iPhones currently supported by Apple, i.e. receiving security patches, Samsung Galaxy phones currently supported by Samsung. These phones are enterprise-grade. Google pixel phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
+These phones can be configured with hardened security settings to resist tampering somewhat, and keep data secure.
+
+Apple iPhones, Samsung Galaxy and Google Pixel are on a league of their own when it comes to security.
+
+The same cannot be said about other Android phones, even models included in the Android Enterprise Recommended list.
+
+**Ideal Laptops:** Lenovo ThinkPads, Dell Pro/Pro Max (formerly Latitude and Precision) HP Elitebook and ZBook, MacBook Pro/Air.
+
+## Medium Risk vs High Risk
+
+There is a huge difference between medium and high risk destinations. This document does not have a list of destinations with a risk-rating. Instead, a framework is provided to evaluate risk on an individual basis, and for individuals to act accordingly to protect themselves and their data. As of 9/11 and COVID, there are no longer *low-risk* destinations. Anywhere you go, your data and your personal liberties are at **at best** at medium-risk. There is not a single place on Earth where you can travel with the guarantee that your digital devices won't be subject of scrutiny. Nonetheless, **the difference between the lowest risk and the highest risk is abysmal** and **personal.** Even individuals working for the same company traveling to the same country can have **completely different risk profiles** in that country. As such, here are some guidelines to determine risk:
+
+### The Economist Intelligence Unit Democratic Index
+
+The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to according to the judicial framework of the country.
+
+### 
+
+### Burner devices
+
+The easiest approach to protecting digital assets is not to expose them in the first place. That would imply taking a "burner" device (phone or/and laptop) with only mission-critical data. However, burner devices need to follow the same security guidelines as regular devices and for reasons of cost-effectiveness, are not suitable for everyone.
+
+## Sanitizing a regular work/personal device for travel
+
+In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. 
+
+ <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
 
 ## Minimizing Risk according to destination
 
