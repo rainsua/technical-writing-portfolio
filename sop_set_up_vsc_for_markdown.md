@@ -22,9 +22,9 @@ b. Click `Profile`--> `New Profile`
 
 c. Enter a new profile name, icon, and include extensions only if they're useful for markdown production.
 
-## 2. Install the minimum useful extensions
+## 2. Install Baseline Markdown Extensions
 
-Three extensions are recommended as a minimalist approach. It's best to install them directly from the Marketplace in VSC, clicking on `extensions` on the left panel.
+Three extensions are recommended as a minimalist approach. Install them directly from the Marketplace in VSC, clicking on `extensions` on the left panel.
 
 ### Markdownlint
 
