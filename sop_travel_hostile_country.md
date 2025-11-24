@@ -10,15 +10,15 @@ Any valuable data, included but not limited to account credentials, files and cr
 
 ## Purpose and Scope
 
-The following SOP is dedicated to any individual crossing borders where digital assets can be seized. In particular, journalists, NGO operators and business travelers carrying valuable digital assets.
+Follow this SOP to safeguard data across borders. Determine risk **diligently**. Most destinations are **medium-risk** but you must treat **medium-risk** as **high-risk** if you as a person are **high-risk**. Remember, there are no low-risk destinations. 
 
-## Raison d'tre 
+## Raison d'tre
 
-At present, we can divide destinations on a per-risk basis, as medium-risk and high risk. Data searches remain -fortunately- low, mostly for technical reasons. However, it will soon be possible to streamline these processes to the point where they can be made en-masse. Nevertheless, one most weight the low probability against the massive damage even a routine inspection can make.
+Data seizures and forensic inspection of digital devices across borders are rare but on the rise. These present a very high risk to individuals with valuable digital assets. Following this SOP will mitigate the risk of data loss/compromise in most casual inspections. In worst-case scenario it will provide the best chance of safeguarding mission-critical data.
 
 ## Modus Operandi
 
-To minimize risk, travelers must not travel with data that is not mission-critical. The ideal solution is to travel with travel-specific devices (AKA burners) without any personal credentials other than the ones needed for the mission.
+To reduce attack surface, travelers take **only mission-critical data.** The ideal solution is to travel with travel-specific devices (AKA burners) without any personal credentials other than the ones needed for the mission.
 
 However, due to practical reasons, it may not be possible to obtain travel-specific devices. Therefore, personal/work devices would need to be sanitized to *burner* level, by removing personal credentials and accounts.
 
