@@ -6,27 +6,26 @@ Version: 1.0
 ---
 ## Digital Assets
 
-Any valuable data, included but not limited to account credentials, files and crypto.
-
+Digital assets are information in digital form. It is a broad term, encompassing text, audio and video files, account credentials, authentication tokens, certificates, passwords, seed phrases and anything of value that can be stored digitally. 
 ## Purpose and Scope
 
-Follow this SOP to safeguard data across borders. Determine risk **diligently**. Most destinations are **medium-risk** but you must treat **medium-risk** as **high-risk** if you as a person are **high-risk**. Remember, there are no low-risk destinations. 
+Follow this SOP to safeguard data across borders. Determine risk **diligently**. Most destinations are **medium-risk** but you must treat **medium-risk** as **high-risk** if you as a person are **high-risk**. Remember, **there are no low-risk destinations.**
 
 ## Raison d'tre
 
-Data seizures and forensic inspection of digital devices across borders are rare but on the rise. These present a very high risk to individuals with valuable digital assets. Following this SOP will mitigate the risk of data loss/compromise in most casual inspections. In worst-case scenario it will provide the best chance of safeguarding mission-critical data.
+Data seizures and forensic inspection of digital devices across borders are rare but on the rise. These present a very high risk to individuals with valuable digital assets. Following this SOP will mitigate the risk of data loss/compromise in most casual inspections. In worst-case scenario it will provide the best chance of safeguarding mission-critical data. <!--Revise this section, might want to kill it or mutate it into something else>
 
 ## Modus Operandi
 
-To reduce attack surface, travelers take **only mission-critical data.** The ideal solution is to travel with travel-specific devices (AKA burners) without any personal credentials other than the ones needed for the mission.
+Reduce attack surface by taking **only mission-critical data** across borders. To achieve this, personal data that is not mission-critical must be removed from the devices that will travel. That is why using a travel specific device can simplify things considerably. 
 
-However, due to practical reasons, it may not be possible to obtain travel-specific devices. Therefore, personal/work devices would need to be sanitized to *burner* level, by removing personal credentials and accounts.
+
 
 Always prepare for the worst and hope for the best.
 
 ### Suitable Hardware
 
-To travel to medium/high risk places with digital assets,  enterprise/business grade hardware is highly recommended. Consumer-grade computers and phones simply don't offer the same level of security, regardless of features.
+Only use either business-grade or enterprise grade laptops and phones. Consumer devices lack the security hardening and features to be suitable candidates.
 
 **Ideal Phones:** All iPhones currently supported by Apple, i.e. receiving security patches, Samsung Galaxy phones currently supported by Samsung. These phones are enterprise-grade. Google pixel phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
 These phones can be configured with hardened security settings to resist tampering somewhat, and keep data secure.
@@ -35,7 +34,9 @@ Apple iPhones, Samsung Galaxy and Google Pixel are on a league of their own when
 
 The same cannot be said about other Android phones, even models included in the Android Enterprise Recommended list.
 
-**Ideal Laptops:** Lenovo ThinkPads, Dell Pro/Pro Max (formerly Latitude and Precision) HP Elitebook and ZBook, MacBook Pro/Air.
+**Business-grade Laptops:** Lenovo ThinkPads, Dell Pro/Pro Max (formerly Latitude and Precision) HP EliteBook and ZBook, MacBook Pro/Air.
+
+**Enterprise-grade Laptops:** ONLY ThinkPad, EliteBook, ZBook, Dell Pro/Pro Max in addition to a number of rugged devices that should be avoided not because they lack anything but because they draw too much attention.
 
 ## Medium Risk vs High Risk
 
@@ -49,10 +50,17 @@ The Economist Intelligence Unit Democratic Index is a reliable source to determi
 
 ### Burner devices
 
-The easiest approach to protecting digital assets is not to expose them in the first place. That would imply taking a "burner" device (phone or/and laptop) with only mission-critical data. However, burner devices need to follow the same security guidelines as regular devices and for reasons of cost-effectiveness, are not suitable for everyone.
+For the purpose of this SOP a "burner" device is a travel-only device that will be sanitized when returned home. The device doesn't need to be destroyed after use, as a "genuine" burner used to be.
+
+The devices used must meet security criteria listed before.
+
+## Baseline security
+
+We must establish a baseline security that should be met before considering traveling with the device at all, either in travel mode or not. Even without knowing
 
 ## Sanitizing a regular work/personal device for travel
 
+Setting up business-grade hardware for travel is a straightforward process if baseline security is met from the beginning. 
 In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. 
 
  <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
