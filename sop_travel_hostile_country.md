@@ -56,7 +56,20 @@ The devices used must meet security criteria listed before.
 
 ## Baseline security
 
-We must establish a baseline security that should be met before considering traveling with the device at all, either in travel mode or not. Even without knowing
+### On computers
+
+- Full disk encryption with Bitlocker using PIN lock (9 digits min) and with no key escrow by Microsoft. AES-256 preferred, AES-128 minimum.
+
+- Authentication protocol with MFA and passwordless if possible. Numeric PIN/Biometrics.
+
+- FIPS mode.
+
+- Password manager secured with MFA and a 6-word random (diceware) passphrase.
+
+- Disable hibernation.
+
+- If phone is Samsung, enable signing in with Phone Link <!--expand on this and make it work on your thinkpad before recommending it further-->
+ 
 
 ## Sanitizing a regular work/personal device for travel
 
