@@ -68,7 +68,16 @@ The devices used must meet security criteria listed before.
 
 - Disable hibernation.
 
-- If phone is Samsung, enable signing in with Phone Link <!--expand on this and make it work on your thinkpad before recommending it further-->
+### On Phones
+
+- Full-disk encryption.
+
+- Enable ``paranoid mode``on **iPhone**/ Auto Blocker in ``maximum restriction`` on **Samsung**.
+
+- Screen timeout 30 seconds.
+
+- 
+
  
 
 ## Sanitizing a regular work/personal device for travel
