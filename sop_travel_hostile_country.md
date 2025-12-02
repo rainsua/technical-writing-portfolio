@@ -6,7 +6,8 @@ Version: 1.0
 ---
 ## Digital Assets
 
-Digital assets are information in digital form. It is a broad term, encompassing text, audio and video files, account credentials, authentication tokens, certificates, passwords, seed phrases and anything of value that can be stored digitally. 
+Digital assets are information in digital form. It is a broad term, encompassing text, audio and video files, account credentials, authentication tokens, certificates, passwords, seed phrases and anything of value that can be stored digitally.
+
 ## Purpose and Scope
 
 Follow this SOP to safeguard data across borders. Determine risk **diligently**. Most destinations are **medium-risk** but you must treat **medium-risk** as **high-risk** if you as a person are **high-risk**. Remember, **there are no low-risk destinations.**
@@ -17,15 +18,13 @@ Data seizures and forensic inspection of digital devices across borders are rare
 
 ## Modus Operandi
 
-Reduce attack surface by taking **only mission-critical data** across borders. To achieve this, personal data that is not mission-critical must be removed from the devices that will travel. That is why using a travel specific device can simplify things considerably. 
-
-
+Reduce attack surface by taking **only mission-critical data** across borders. To achieve this, personal data that is not mission-critical must be removed from the devices that will travel after being backed up to the cloud. That is why using a travel specific device can simplify things considerably.
 
 Always prepare for the worst and hope for the best.
 
 ### Suitable Hardware
 
-Only use either business-grade or enterprise grade laptops and phones. Consumer devices lack the security hardening and features to be suitable candidates.
+Only use either business-grade or enterprise-grade laptops and phones. Consumer-grade devices should be avoided because they lack the security elements and reliability that will allow the necessary hardening that the task requires.
 
 **Ideal Phones:** All iPhones currently supported by Apple, i.e. receiving security patches, Samsung Galaxy phones currently supported by Samsung. These phones are enterprise-grade. Google pixel phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
 These phones can be configured with hardened security settings to resist tampering somewhat, and keep data secure.
@@ -34,19 +33,36 @@ Apple iPhones, Samsung Galaxy and Google Pixel are on a league of their own when
 
 The same cannot be said about other Android phones, even models included in the Android Enterprise Recommended list.
 
-**Business-grade Laptops:** Lenovo ThinkPads, Dell Pro/Pro Max (formerly Latitude and Precision) HP EliteBook and ZBook, MacBook Pro/Air.
+**Business-grade Laptops:** All **enterprise-grade** devices, plus Apple MacBook Air and Pro.
 
-**Enterprise-grade Laptops:** ONLY ThinkPad, EliteBook, ZBook, Dell Pro/Pro Max in addition to a number of rugged devices that should be avoided not because they lack anything but because they draw too much attention.
+**Enterprise-grade Laptops:** Lenovo ThinkPad and ThinkBook all models, HP EliteBook and ZBook, Dell Pro/Pro Max in addition to a number of rugged devices by Panasonic, Dell, GTac  that should be avoided unless you're traveling for work and your work demands it (e.g. engineer working in construction) not because they lack anything but because they draw too much attention.
 
 ## Medium Risk vs High Risk
 
 There is a huge difference between medium and high risk destinations. This document does not have a list of destinations with a risk-rating. Instead, a framework is provided to evaluate risk on an individual basis, and for individuals to act accordingly to protect themselves and their data. As of 9/11 and COVID, there are no longer *low-risk* destinations. Anywhere you go, your data and your personal liberties are at **at best** at medium-risk. There is not a single place on Earth where you can travel with the guarantee that your digital devices won't be subject of scrutiny. Nonetheless, **the difference between the lowest risk and the highest risk is abysmal** and **personal.** Even individuals working for the same company traveling to the same country can have **completely different risk profiles** in that country. As such, here are some guidelines to determine risk:
 
+## Determine personal risk
+
+Determine your personal risk by considering the questions below. If your response to any of the questions is **yes** then your trip is automatically **high-risk** requiring **high-risk** countermeasures.
+
+- Are you, or have you ever been an activist, perceived by any government as adversary?
+- Have you published any content that is politically charged on social media.
+- Are you objectively considered an influencer?
+- Do you work in security of any kind, in particular cybersecurity?
+- Would you, due to your appearance, look out of place in a corporate setting, like a bank?
+- Are you a high-net worth individual?
+- Do you carry over $10k in crypto? On hot or cold wallets?
+- Do you carry material or is there anything about your person that can be considered immoral, pornographic, religiously proselytizing or politically subversive?
+- Are you a journalist or a member of an NGO?
+- Do you have visible tattoos, piercings and/or alterations in your person?
+
+
+
 ### The Economist Intelligence Unit Democratic Index
 
-The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to according to the judicial framework of the country.
+The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to individuals according to the judicial framework of the country. At present, it is arguably amongst the most unbiased.
 
-### 
+###
 
 ### Burner devices
 
