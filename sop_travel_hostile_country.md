@@ -14,7 +14,7 @@ Follow this SOP to safeguard data across borders. Determine risk **diligently**.
 
 ## Raison d'tre
 
-Data seizures and forensic inspection of digital devices across borders are rare but on the rise. These present a very high risk to individuals with valuable digital assets. Following this SOP will mitigate the risk of data loss/compromise in most casual inspections. In worst-case scenario it will provide the best chance of safeguarding mission-critical data. <!--Revise this section, might want to kill it or mutate it into something else>
+Data seizures and forensic inspection of digital devices across borders are rare but on the rise. These present a very high risk to individuals with valuable digital assets. Following this SOP will mitigate the risk of data loss/compromise in most casual inspections. In worst-case scenario it will provide the best chance of safeguarding mission-critical data.
 
 ## Modus Operandi
 
@@ -24,7 +24,7 @@ Always prepare for the worst and hope for the best.
 
 ### Suitable Hardware
 
-Only use either business-grade or enterprise-grade laptops and phones. Consumer-grade devices should be avoided because they lack the security elements and reliability that will allow the necessary hardening that the task requires.
+Only use **business-grade** or **enterprise-grade** laptops and phones. Consumer-grade devices should be avoided because they lack the security elements necessary to achieve baseline security and the performance and reliability to successfully navigate encryption/decryption and the necessary hardening that the task requires.
 
 **Ideal Phones:** All iPhones currently supported by Apple, i.e. receiving security patches, Samsung Galaxy phones currently supported by Samsung. These phones are enterprise-grade. Google pixel phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
 These phones can be configured with hardened security settings to resist tampering somewhat, and keep data secure.
@@ -56,11 +56,20 @@ Determine your personal risk by considering the questions below. If your respons
 - Are you a journalist or a member of an NGO?
 - Do you have visible tattoos, piercings and/or alterations in your person?
 
+## Determine Destination Risk
 
+If personal risk is medium, the next step is to determine the risk the destination poses. To that end, consider authoritarian countries as riskier than seemingly democratic ones. There are two resources recommended, none is completely unbiased.
 
 ### The Economist Intelligence Unit Democratic Index
 
-The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to individuals according to the judicial framework of the country. At present, it is arguably amongst the most unbiased.
+The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to individuals according to the judicial framework of the country. At present, it is arguably amongst the most unbiased. To obtain **The Economist Intelligence Unit Democratic Index**, request a copy of the latest one, visit [EIU](https://www.eiu.com/n/campaigns/democracy-index-2024/).
+
+### The Fragile State Index
+
+It's always good to check The Fragile State Index to pinpoint countries where the governments are on the brink of failure.
+
+Click on [The Fragile State Index](https://fragilestatesindex.org/2025/02/18/https-fragilestatesindex-org-wp-content-uploads-2025-02-fsi-2024-report-a-world-adrift-2-pdf/) to download the latest -2024.
+
 
 ###
 
@@ -78,7 +87,7 @@ The devices used must meet security criteria listed before.
 
 - Authentication protocol with MFA and passwordless if possible. Numeric PIN/Biometrics.
 
-- FIPS mode.
+- FIPS mode (optional, recommended if you need compliance).
 
 - Password manager secured with MFA and a 6-word random (diceware) passphrase.
 
@@ -92,14 +101,15 @@ The devices used must meet security criteria listed before.
 
 - Screen timeout 30 seconds.
 
-- 
-
- 
+- MFA with biometrics/passwords/tokens.
+- Travel account on password manager syncing via cloud (Bitwarden, 1password, etc...)
 
 ## Sanitizing a regular work/personal device for travel
 
 Setting up business-grade hardware for travel is a straightforward process if baseline security is met from the beginning. 
-In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. 
+In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. Social media should be avoided at all costs, unless one already has a "second" social media persona made for travel.
+
+
 
  <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
 
