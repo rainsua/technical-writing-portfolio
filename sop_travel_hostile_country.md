@@ -1,16 +1,16 @@
 ---
-Title: SOP for traveling to high-risk places protecting digital assets 
+Title: 
 Author: Ramon A. Insua
 Date: 06-11-25
 Version: 1.0
 ---
-## Digital Assets
+## Objective
 
-Digital assets are information in digital form. It is a broad term, encompassing text, audio and video files, account credentials, authentication tokens, certificates, passwords, seed phrases and anything of value that can be stored digitally.
+Cross-border travel brings increasingly crucial risks to information security. This includes seizure, forensic inspection and state-sponsored espionage. This policy aims to minimize the attack surface of digital devices during travel, and to ensure a baseline of security hardening to maximize confidentiality of data.
 
-## Purpose and Scope
+## Scope
 
-Follow this SOP to safeguard data across borders. Determine risk **diligently**. Most destinations are **medium-risk** but you must treat **medium-risk** as **high-risk** if you as a person are **high-risk**. Remember, **there are no low-risk destinations.**
+This policy applies to all persons subject to organizational policies, irrespective of role or seniority. 
 
 ## Raison d'tre
 
@@ -26,7 +26,7 @@ Always prepare for the worst and hope for the best.
 
 Only use **business-grade** or **enterprise-grade** laptops and phones. Consumer-grade devices should be avoided because they lack the security elements necessary to achieve baseline security and the performance and reliability to successfully navigate encryption/decryption and the necessary hardening that the task requires.
 
-**Ideal Phones:** All iPhones currently supported by Apple, i.e. receiving security patches, Samsung Galaxy phones currently supported by Samsung. These phones are enterprise-grade. Google pixel phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
+**Ideal Phones:** All **iPhones** currently supported by Apple, i.e. receiving security patches, **Samsung Galaxy** phones currently supported by Samsung. These phones are enterprise-grade. **Google Pixel** phones currently receiving security updates are also considered enterprise-grade, even if adoption is rare and availability isn't global.
 These phones can be configured with hardened security settings to resist tampering somewhat, and keep data secure.
 
 Apple iPhones, Samsung Galaxy and Google Pixel are on a league of their own when it comes to security.
@@ -39,13 +39,13 @@ The same cannot be said about other Android phones, even models included in the 
 
 ## Medium Risk vs High Risk
 
-There is a huge difference between medium and high risk destinations. This document does not have a list of destinations with a risk-rating. Instead, a framework is provided to evaluate risk on an individual basis, and for individuals to act accordingly to protect themselves and their data. As of 9/11 and COVID, there are no longer *low-risk* destinations. Anywhere you go, your data and your personal liberties are at **at best** at medium-risk. There is not a single place on Earth where you can travel with the guarantee that your digital devices won't be subject of scrutiny. Nonetheless, **the difference between the lowest risk and the highest risk is abysmal** and **personal.** Even individuals working for the same company traveling to the same country can have **completely different risk profiles** in that country. As such, here are some guidelines to determine risk:
+There is a huge difference between medium and high risk destinations. This policy does not include a list of destinations with a risk-rating. Instead, a framework is provided to evaluate risk on an individual basis, and for individuals to act accordingly to protect themselves and their data. This policy considers that the current possible minimum risk is **medium risk** and recommends whenever possible to follow the protocol for **high risk.**
 
-## Determine personal risk
+## Personal risk
 
-Determine your personal risk by considering the questions below. If your response to any of the questions is **yes** then your trip is automatically **high-risk** requiring **high-risk** countermeasures.
+This policy mandates that all persons subjected to it must answer truthfully the following questionnaire in binary (Y/N):
 
-- Are you, or have you ever been an activist, perceived by any government as adversary?
+- Are you, or have you ever been an activist, perceived by any government as an adversary?
 - Have you published any content that is politically charged on social media.
 - Are you objectively considered an influencer?
 - Do you work in security of any kind, in particular cybersecurity?
@@ -56,22 +56,33 @@ Determine your personal risk by considering the questions below. If your respons
 - Are you a journalist or a member of an NGO?
 - Do you have visible tattoos, piercings and/or alterations in your person?
 
-## Determine Destination Risk
+A single affirmative response to any of the questions above raises the risk profile from **medium risk** to **high risk** as per this policy and mandates strict adherence to the **high risk** security protocol.
 
-If personal risk is medium, the next step is to determine the risk the destination poses. To that end, consider authoritarian countries as riskier than seemingly democratic ones. There are two resources recommended, none is completely unbiased.
+## Destination Risk
+
+This policy determines all destinations at minimum **medium risk** and raises the risk profile where one or more of the following conditions are met:
+
+1. Government instability.
+2. Widespread corruption.
+3. Economic and social turmoil.
+4. Authoritarianism.
+5. Judicial <!--Expand this point-->
+
+This policy recommends the use of either or both of the sources below to determine if the conditions above are met, in the absence of specialized intelligence.
 
 ### The Economist Intelligence Unit Democratic Index
 
-The Economist Intelligence Unit Democratic Index is a reliable source to determine the level of authoritarianism, and/or liberties warranted to individuals according to the judicial framework of the country. At present, it is arguably amongst the most unbiased. To obtain **The Economist Intelligence Unit Democratic Index**, request a copy of the latest one, visit [EIU](https://www.eiu.com/n/campaigns/democracy-index-2024/).
+This policy deems The Economist Intelligence Unit Democratic Index as a reliable source to determine the level of authoritarianism, and/or liberties warranted to individuals according to the judicial framework of the country. To obtain **The Economist Intelligence Unit Democratic Index**, request a copy of the latest one, visiting [EIU](https://www.eiu.com/n/campaigns/democracy-index-2024/).
 
 ### The Fragile State Index
 
-It's always good to check The Fragile State Index to pinpoint countries where the governments are on the brink of failure.
+The Fragile State Index is a valid source of intelligence as per this policy.
 
 Click on [The Fragile State Index](https://fragilestatesindex.org/2025/02/18/https-fragilestatesindex-org-wp-content-uploads-2025-02-fsi-2024-report-a-world-adrift-2-pdf/) to download the latest -2024.
 
 
-###
+
+
 
 ### Burner devices
 
@@ -93,6 +104,10 @@ The devices used must meet security criteria listed before.
 
 - Disable hibernation.
 
+#### Rationale
+
+Microsoft is compelled by law to hand over keys in certain jurisdictions, without need for a court order. 
+
 ### On Phones
 
 - Full-disk encryption.
@@ -102,40 +117,15 @@ The devices used must meet security criteria listed before.
 - Screen timeout 30 seconds.
 
 - MFA with biometrics/passwords/tokens.
+
 - Travel account on password manager syncing via cloud (Bitwarden, 1password, etc...)
 
 ## Sanitizing a regular work/personal device for travel
 
-Setting up business-grade hardware for travel is a straightforward process if baseline security is met from the beginning. 
+Setting up business-grade hardware for travel is a straightforward process if baseline security is met from the beginning.
+
 In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. Social media should be avoided at all costs, unless one already has a "second" social media persona made for travel.
 
 
 
- <!-- A burner device would be the ideal solution if it were the same quality as the actual device. Because business-grade devices are expensive, burner devices tend to be of lesser quality, and as such have a big trade-back "would this device allow me to work normally" and often the answer is not. There's another problem with burner devices and it is that border officials tend to distrust people who carry them, so unless they actually carry a mock alternate life, complete with messages, pictures etc, they can raise eyebrows. Of course, someone traveling in business could be excused for bringing an only "business" device? If that were the case the device would need to make a case with work files etc, showing that the individual carrying them is professional interested only in his/her work. in summation, the ideal burner is the same hardware as the actual working hardware, but without any data which is not mission-critical. As such, without factoring possible loss of the hardware, primary devices can become the perfect burner devices if non-critical data is removed. This is easier said than done. How do you remove MFA apps that you need to authenticate to important accounts? Modern life is incompatible with a burner device, you can't just remove authenticator apps, and you can't possibly even think about not using MFA on your accounts... So what can be done?  >
-
-## Minimizing Risk according to destination
-
-Here's are the risks associated with travel to certain areas:
-### 1. USA
-The risk when traveling to the US for private individuals and business travelers is political material. It can be as little as a whatsapp message criticizing the current administration. Border officials can ask for passwords and conduct manual searches. Failure to comply can lead to seizure of the device(s) and/or denial of entry into the country for non-US citizens/residents.
-
-### 2. EEAA/Schengen
-
-Though digital searches entering the EU are rarer, border officials have the power to search the devices upon suspicion of illegal IP items. They also have the power to seize devices. In the EU, crypto assets fall under funds that need to be declared theoretically upon arrival. However, at the moment, officials aren't equipped to value crypto, so this would only be enforced, theoretically, upon suspicion of a crime or terrorism.
-
-### 3. Gulf States (Dubai, UAE, Saudi Arabia etc...)
-
-Illegal items to bring to Gulf States (Dubai, UAE, Saudi Arabia etc...) include but are not limited to anything illegal. This includes pornography, gay paraphernalia, rainbows and many other "unacceptable" items. It's also illegal to bring over 10K in crypto currencies without declaring, IP infringement items and basically, everything risky in EU plus anything gay or porn.
-
-## Password Managers for Travel
-
-Theoretically speaking, any password manager can be used successfully if it's sanitized for travel. This means, only mission-critical passwords in the vault.
-
-Create a new vault for travel only, and log out from the regular vault before departure. - Memorize your master password and don't write it anywhere. 
-- A good master passoword (for your vault) should have six, truly random words. Do not capitalize. Do not use weird symbols. Use a passoword generator or EFF diceware.<!-- >
-- The regular passwords in your vault should aim for 30 random characters. You do not need to memorize these, only the master password for the vault.
-- Song lyrics, fragments from published books, composite words seemingly unreal or unheard off, or anything that can be predicted won't do. Good password cracking has lists of words, lists of words together with other words, lyrics, fragments of literature and anything you can think off. Humans are not very good at creating randomness. Use a password generator!
-
-## Biometrics
-
-Biometrics are invaluable for authentication. They're incredibly convenient and secure. However, when traveling to a high risk zone, biometrics should be disabled/deleted. Rely on alphanumerical passwords, passphrases and PINs. Remember, the most effective length for a passphrase or a PIN, is the one you can remember without fault, in your worst day under pressure, without hesitation. It's better to have 3three truly random words in a passphrase than 6 if you need to write them down somewhere just in case. 
+ 
