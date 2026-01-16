@@ -36,7 +36,7 @@ Only  **business-grade** or **enterprise-grade** hardware is sanctioned. Consume
 
 ## 4.2 "Burner" Devices
 
-
+A "burner" is a travel-specific device provisioned with minimum-viability data. The device must be sanitized upon return (factory-reset).
 
 ## 5.0 Risk Assessment Framework
 
@@ -65,42 +65,41 @@ This policy establishes all destinations at minimum **medium risk** and raises t
 
 Travelers must consult **The Economist Intelligence Unit Democratic Index**(https://www.eiu.com/n/campaigns/democracy-index-2024/) and/or [**The Fragile State Index**](https://fragilestatesindex.org/2025/02/18/https-fragilestatesindex-org-wp-content-uploads-2025-02-fsi-2024-report-a-world-adrift-2-pdf/) in the absence of more specialized intelligence.
 
-### 4.2 Burner devices
+## 6.0 Operational Security
 
-For the purpose of this SOP a "burner" device is a travel-only device provisioned with minimum viability data that will be sanitized when returned home (factory reset).
+### 6.1 Data Minimization
 
-## Baseline security
+- **High Risk Travel:** Travelers must bring only mission-critical data on travel devices across borders.
+- **Cloud Dependency:** Non-mission-critical data must be backed up to a secure cloud environment and wiped from local storage on all travel devices.
 
-### On computers
+### 6.2 Baseline Configuration for computers
 
-- Full disk encryption with Bitlocker using PIN lock (9 digits min) and with no key escrow by Microsoft. AES-256 preferred, AES-128 minimum.
+- Full disk encryption with Bitlocker/FileVault.
+    - Bitlocker specifics: **Key escrow by Microsoft is prohibited.** AES-256 encryption algorithm required.
+    - Pre-Boot Authentication: PIN (9-digit minimum) required.
 
-- Authentication protocol with MFA and passwordless if possible. Numeric PIN/Biometrics.
+- **Power State:** Devices must be fully shutdown (S5 State). All other power states are forbidden to prevent cold boot attacks. 
 
-- FIPS mode (optional, recommended if you need compliance).
+- Authentication with MFA and passwordless if possible. Numeric PIN/Biometrics for all system access.
 
-- Password manager secured with MFA and a 6-word random (diceware) passphrase.
+- Password manager secured with MFA and a 6-word random (diceware) passphrase which must not be stored anywhere in the traveler's person.
 
-- Disable hibernation.
-
-#### Rationale
-
-Microsoft is compelled by law to hand over keys in certain jurisdictions, without need for a court order. 
-
-### On Phones
+### 6.3 Baselina configuration for phones
 
 - Full-disk encryption.
 
-- Enable ``paranoid mode``on **iPhone**/ Auto Blocker in ``maximum restriction`` on **Samsung**.
+- Enable ``Lockdown`` mode on **iPhone**/ Auto Blocker in ``maximum restriction`` on **Samsung Galaxy**/**Google Pixel**.
 
 - Screen timeout 30 seconds.
 
 - MFA with biometrics/passwords/tokens.
 
-- Travel account on password manager syncing via cloud (Bitwarden, 1password, etc...)
+- Biometric unlock must be disabled before checkpoint crossing. (passphrases/PIN only)
 
-## Sanitizing a regular work/personal device for travel
+## 7.0 Re-Entry Protocol
 
-Setting up business-grade hardware for travel is a straightforward process if baseline security is met from the beginning.
+### 7.1 Chain of Custody
 
-In the absence of a burner, non-mission-critical apps and data must be backed up to a secure cloud and wiped on the device. This includes authentication apps and credentials. The creation of a travel password vault is **highly** recommended. This vault should include only passwords and credentials for mission-critical apps. Social media should be avoided at all costs, unless one already has a "second" social media persona made for travel.
+If the user certifies via signed affidavit that the device(s) **were ALWAYS either in his possession or in direct line of sight** i.e. the chain of custody was never broken, the infosec department may at its sole discretion, waive sanitization protocols. In all other cases irrespective of destination risk the devices will be surrendered to the IT department upon arrival (ASAP) for sanitization. This includes BYOD.
+
+**Tampering & Isolation:** In the event of **suspicion of tampering or interdiction** devices must remain shutdown (in S5 state) and secured in RF-shielded containment (Faraday bags), prior to entering the physical perimeter of company facilities.
