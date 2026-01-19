@@ -1,8 +1,8 @@
 ---
-Title: Secure Transit Directive
-Author: Ramon A. Insua
-Date: 06-11-25
-Version: 1.0
+title: Secure Transit Directive
+author: Ramon A. Insua
+date: "2026-01-19"
+version: 1.0
 ---
 ## 1.0 Objective
 
@@ -14,14 +14,13 @@ This policy applies to all persons subject to organizational security mandates, 
 
 ## 3.0 Rationale
 
-Forensic inspection of digital devices at border crossings, presents a critical risk to individuals with valuable digital assets. Adherence to this policy mitigates the risk of data loss/compromise in  casual inspections and in-depth defense against targeted forensic analysis.
-
+Forensic inspection of digital devices at border crossings presents a critical risk to individuals with valuable digital assets. Adherence to this policy mitigates the risk of data loss/compromise in  cursory inspections and provides Defense-in-Depth against targeted forensic analysis.
 
 ## 4.0 Hardware Standards
 
 ### 4.1 Sanctioned Devices
 
-Only  **business-grade** or **enterprise-grade** hardware is sanctioned. Consumer-grade devices should be avoided because they lack the security elements necessary to achieve baseline security and the performance and reliability to successfully navigate encryption/decryption and the necessary hardening for this threat model.
+Only  **business-grade** or **enterprise-grade** hardware is sanctioned. Consumer-grade devices are forbidden because they lack the security elements necessary to achieve baseline security and the performance/reliability to successfully navigate encryption/decryption and the necessary hardening for this threat model.
 
 ### Smartphones
 
@@ -63,7 +62,7 @@ This policy establishes all destinations at minimum **medium risk** and raises t
 2. Authoritarian legal environment.
 3. Pervasive state-sponsored surveillance.
 
-Travelers must consult **The Economist Intelligence Unit Democratic Index**(https://www.eiu.com/n/campaigns/democracy-index-2024/) and/or [**The Fragile State Index**](https://fragilestatesindex.org/2025/02/18/https-fragilestatesindex-org-wp-content-uploads-2025-02-fsi-2024-report-a-world-adrift-2-pdf/) in the absence of more specialized intelligence.
+Travelers must consult [**The Economist Intelligence Unit Democratic Index**](https://www.eiu.com/n/campaigns/democracy-index-2024/) and/or [**The Fragile State Index**](https://fragilestatesindex.org/2025/02/18/https-fragilestatesindex-org-wp-content-uploads-2025-02-fsi-2024-report-a-world-adrift-2-pdf/) in the absence of more specialized intelligence.
 
 ## 6.0 Operational Security
 
@@ -84,7 +83,7 @@ Travelers must consult **The Economist Intelligence Unit Democratic Index**(http
 
 - Password manager secured with MFA and a 6-word random (diceware) passphrase which must not be stored anywhere in the traveler's person.
 
-### 6.3 Baselina configuration for phones
+### 6.3 Baseline configuration for phones
 
 - Full-disk encryption.
 
