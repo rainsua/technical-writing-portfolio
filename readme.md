@@ -1,12 +1,17 @@
 # Portfolio / Manifest
 
 ### Status: [Stable]
-**Maintained by:** [Your Name / Handle]
+**Maintained by:** Ramon A. Insua
 **Environment:** VS Code (Strict Linting / Local Build)
 
 ---
 
-### 1. The Objective
+### 1. Objective
+
+This repository contains samples of some of my technical documentation. It aims to serve not only as a container of my samples but as a demonstration of my methodology. 
+
+I subscribe to the view that documentation is the first line of defense. It is a security component, not unlike a firewall. When documentation has ambiguous language, it behaves like a vulnerability. When documentation contains clear language with strong meaning, it behaves like source of resilience.
+----------------------------
 This repository serves as a central index for my technical documentation and code samples. It is not merely a storage container, but a demonstration of methodology.
 
 I believe that documentation is a security feature. Ambiguity creates vulnerability; clarity creates resilience. In my work, I prioritize detail, the distinct separation of instruments (functions), and an unyielding adherence to structure.

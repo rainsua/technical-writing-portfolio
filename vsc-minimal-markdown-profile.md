@@ -1,10 +1,10 @@
 ---
-Title: Setting up VSC for Markdown
-Author: Ramon A. Insua
-Date: 2025-11-05
+title: Guide: Configuring a Minimum Viable VS Code Profile for Markdown
+author: Ramon A. Insua
+date: 2025-11-05
 version: 1.0
 ---
-## Setting Up VSC for Markdown
+## Configuring a Minimum Viable VS Code Profile for Markdown
 
 ![Visual Studio Code](images/vscmarkdown.png)
 
