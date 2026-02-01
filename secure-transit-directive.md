@@ -1,9 +1,14 @@
----
-title: Secure Transit Directive
-author: Ramon A. Insua
-date: "2026-01-19"
-version: 1.0
----
+# SECURE TRANSIT DIRECTIVE
+
+| **Document Control** | |
+| :--- | :--- |
+| **Protocol ID** | STD-2026-01 |
+| **Classification** | **INTERNAL / SECURITY MANDATE** |
+| **Date** | 2026-02-01 |
+| **Author** | **Ramon A. Insua** |
+| **Role** | Lead Systems Architect (Draft) |
+
+***
 ## 1.0 Objective
 
 Cross-border travel brings elevated risks to information security. This includes device seizure, forensic inspection and state-sponsored espionage. This policy establishes standards (mandatory) to minimize the attack surface of digital devices during travel, and to ensure a baseline of security hardening to maximize data confidentiality.
@@ -27,6 +32,9 @@ Only  **business-grade** or **enterprise-grade** hardware is sanctioned. Consume
 - **Apple iPhones** currently receiving security patches.
 - **Samsung Galaxy** Series S and Z currently receiving security updates 
 - **Google Pixel** Models currently receiving security patches.
+
+<div style="page-break-before: always;"></div>
+
 
 ### Laptops
 
