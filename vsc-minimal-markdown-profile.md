@@ -1,14 +1,22 @@
----
-title: Guide: Configuring a Minimum Viable VS Code Profile for Markdown
-author: Ramon A. Insua
-date: 2025-11-05
-version: 1.0
----
-## Configuring a Minimum Viable VS Code Profile for Markdown
+# CONFIGURING A MINIMUM VIABLE VS CODE PROFILE FOR MARKDOWN
+
+| **Document Control** | |
+| :--- | :--- |
+| **Protocol ID** | SOP-VSC-01 |
+| **Classification** | **INTERNAL / TOOLING STANDARD** |
+| **Date** | 2026-02-01 |
+| **Author** | **Ramon A. Insua** |
+| **Version** | 1.0 |
+
+***
+
+
+
+
 
 ![Visual Studio Code](images/vscmarkdown.png)
 
-Follow the steps below to set up VSC for Markdown production.
+This guide establishes a baseline configuration for Visual Studio Code to ensure consistent, lint-compliant Markdown production across the organization. Follow the steps below to set up VSC for Markdown production.
 
 ## 1. Set up a new profile
 
