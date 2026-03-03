@@ -51,6 +51,11 @@ All materials within this portfolio are constructed according to the following p
 * **Type:** Policy
 * **Context:** Establishes standards to minimize attack surface and maximize confidentiality of data in digital devices during cross-border travel.
 
+### [Guide: Ingesting the Latest Vulnerabilities from the European Union Vulnerability Database (EUVD)](./euvd-ingest.md)
+
+* **Type:** How-to Guide
+* **Context:** A step-by-step guide to querying the ENISA EUVD REST API using a Bash script, including navigation of undocumented API behaviour such as WAF restrictions and inconsistent response envelopes.
+
 ---
 
 ## 4. Contact & Verification
