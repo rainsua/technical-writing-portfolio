@@ -2,7 +2,21 @@
 
 The European Union Agency for Cybersecurity (ENISA) maintains the [European Union Vulnerability Database (EUVD)](https://euvd.enisa.europa.eu/homepage). It is a publicly accessible vulnerability database, aggregating data from CVE, GitHub Advisory, EPSS scores and national CSIRT advisories.
 
-Its REST API doesn't require authentication, but its endpoints for latest, latest exploited and latest critical have a maximum response of 8 records. The tool euvd_ingest.sh automates this query ingesting the response writing it on a JSON file that in the end can be formated as a pretty or compact json. 
+Its REST API doesn't require authentication, but its endpoints for latest and latest critical have a maximum response of 8 records. The tool `euvd_ingest.sh` automates this query ingesting the response and writing it on a JSON file that in the end can be formatted as a pretty or compact JSON and identifies to the API gateway as Firefox to avoid being ignored.
+
+#### Flow diagram showing the User Agent change to Firefox
+
+```mermaid
+flowchart TD
+    A[Script initialises] --> B[Set User-Agent to Firefox UA string]
+    B --> C[Make API request]
+    C --> D{Azure WAF inspects UA}
+    D -- Recognisable client library --> E[WAF returns HTTP 403]
+    D -- Browser-like UA --> F[Request reaches ENISA API]
+    F --> G[API returns response]
+    E --> H[Script exits with error]
+```
+
 
 ## Prerequisites
 
@@ -31,7 +45,7 @@ Its REST API doesn't require authentication, but its endpoints for latest, lates
 
 ## Installation
 
-Make sure you meet prerequisites and clone the repo. From a Git Bash terminal, enter:
+Make sure you meet prerequisites and clone the GitHub repository. From a Git Bash terminal, enter:
 ```
 git clone https://github.com/rainsua/euvd-ingest.git
 cd euvd-ingest
@@ -43,70 +57,66 @@ To run the script, invoke it from a unix-like terminal (not from the Git Bash te
 
 `./euvd_ingest.sh` 
 
-As soon as the scrip runs you will be presented with the options below...
+The script starts with an interactive menu
 
-### Options
+### Menu
 
+```
+Query mode:
 1) Latest 100 vulnerabilities 
 2) Latest critical vulnerabilities
 3) Vendor search with date range
+?
+```
 
 Type 1, 2 or 3 and you'll be asked `Output format`
 
 ### Output format
 
+```
+Output format:
 1) Pretty (Outputs a human-readable JSON)
 2) Compact (Outputs a minified JSON)
-
-Type 1 for a pretty json (human readable format) or 2 for a compact json (better to save space, useful to feed an LLM etc.)
-
-Depending on your choices the script wil query a different endpoint of the EUVD API.
-
-#### Latest 100 vulnerabilities
-
-Pressing `1` will query the endpoint `/api/lastvulnerabilities/` and query the endpoint for the latest vulnerabilities, paginating  them into a JSON file. The API documentation states a maximum of 8 records per response. The terminal will show the pages being ingested alongside the number of records per each. 
-**To stop the response, kill the script by typing `Ctrl+C` in the Unix-like terminal. The JSON persists.**
-
-### Flow diagram showing the pagination logic
-
-```mermaid
-flowchart TD
-    A[Start vendor ingestion] --> B[Probe page 0 with size=5]
-    B --> C{HTTP 200?}
-    C -- No --> D[Exit with error]
-    C -- Yes --> E{Records returned?}
-    E -- No --> F[Exit: no results for vendor/date range]
-    E -- Yes --> G[Append page items to temp file]
-    G --> H[Increment page counter]
-    H --> I[Sleep 1 second]
-    I --> J[Fetch next page]
-    J --> K{Records returned?}
-    K -- Yes --> G
-    K -- No --> L[Merge temp file into single JSON array]
-    L --> M[Apply pretty or compact formatting]
-    M --> N[Write output file]
-```
-However the endpoint didn't like the above when the user agent was an Ubuntu wsl2 terminal. The solution? Changing the user agent to Firefox...
-
-### Diagram showing the User Agent change to Firefox
-
-```mermaid
-flowchart TD
-    A[Script initialises] --> B[Set User-Agent to Firefox UA string]
-    B --> C[Make API request]
-    C --> D{Azure WAF inspects UA}
-    D -- Recognisable client library --> E[WAF returns HTTP 403]
-    D -- Browser-like UA --> F[Request reaches ENISA API]
-    F --> G[API returns response]
-    E --> H[Script exits with error]
+?
 ```
 
+Type `1` for a pretty JSON (human readable format) or `2` for a compact JSON (better to save space, useful to feed an LLM etc.)
 
-### Vendor search with date range
+Depending on your choices the script will query a different endpoint of the EUVD API.
 
+#### 1) Latest 100 vulnerabilities
+
+Option `1` will ask for the latest vulnerabilities across vendors and ingest the response paginating  it  into a JSON file.  The terminal will show the pages being ingested alongside the number of records per each. 
+**To stop the response it's possible to stop the script by typing `Ctrl+C` in the Unix-like terminal. The JSON persists.**
+
+#### 2) Latest critical vulnerabilities
+
+Pressing `2` asks for the latest critical vulnerabilities across vendors and performs the same as above.
+
+#### 3) Vendor search with date range
+
+Typing `3` will search using the `vendor` parameter across a date range.
+```
+#? 3
+Vendor / search term (e.g. Canonical, Microsoft):
+```
+Once the search term (vendor) is entered, the next menu asks for dates to be entered in ISO 8601 date format. The first date is meant to be the oldest. 
+
+```
 From date (YYYY-MM-DD, oldest boundary):
-
 To date   (YYYY-MM-DD, most recent boundary): 
+```
+After entering the last date, select the output format on the next menu.
+
+```
+Output format:
+1) Pretty (Outputs a human-readable JSON)
+2) Compact (Outputs a minified JSON)
+?
+```
+
+Type `1` for a pretty JSON (human readable format) or `2` for a compact JSON.
+
 
 ## Known Limitations
 
