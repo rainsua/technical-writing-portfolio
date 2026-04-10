@@ -9,7 +9,7 @@
 
 ## 1. Objective
 
-This repository contains samples of some of my technical documentation. It aims to serve not only as a container of my samples but as a demonstration of my methodology I subscribe to the view that documentation is the first line of defense. It is a security component, not unlike a firewall. When documentation has ambiguous language, it behaves like a vulnerability. When documentation contains clear language with strong meaning, it behaves like source of resilience.
+This repository contains samples of some of my technical documentation. It aims to serve not only as a container of my samples but as a demonstration of my methodology. I subscribe to the view that documentation is the first line of defense. It is a security component, not unlike a firewall. When documentation has ambiguous language, it behaves like a vulnerability. When documentation contains clear language with strong meaning, it behaves like source of resilience.
 
 It serves as a central index for my technical documentation and code samples. It is not merely a storage container, but a demonstration of methodology.
 
@@ -54,7 +54,7 @@ All materials within this portfolio are constructed according to the following p
 ### [Guide: Ingesting the Latest Vulnerabilities from the European Union Vulnerability Database (EUVD)](./euvd-ingest.md)
 
 * **Type:** How-to Guide
-* **Context:** A step-by-step guide to querying the ENISA EUVD REST API using a Bash script, including navigation of undocumented API behaviour such as WAF restrictions and inconsistent response envelopes.
+* **Context:** A step-by-step guide to querying the ENISA EUVD REST API using a Bash script, including navigation of undocumented API behavior such as WAF restrictions and inconsistent response envelopes.
 
 ---
 
